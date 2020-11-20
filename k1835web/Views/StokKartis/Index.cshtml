@@ -1,0 +1,75 @@
+﻿@model IEnumerable<k1835web.Models.StokKarti>
+
+@{
+    ViewBag.Title = "Tüm Stoklar";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Tüm Stoklar</h2>
+
+<p>
+    @Html.ActionLink("Stok Ekle", "Create", new { controller = "StokKartis" }, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Kodu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Kdv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fiyat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Aciklama)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Resim)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KayitYapanAdSoyad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KayitTarihi)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kodu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kdv)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fiyat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Aciklama)
+        </td>
+        <td>
+            <img src="~/img/@item.Resim" style="width:50px;height:auto;" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KayitYapanAdSoyad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KayitTarihi)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { controller = "StokKartis", id = item.Id }, new { @class = "btn btn-default btn-sm" }) |
+            @Html.ActionLink("Sil", "Delete", new { controller = "StokKartis", id = item.Id }, new { @class = "btn btn-danger btn-sm" })
+        </td>
+    </tr>
+}
+
+</table>

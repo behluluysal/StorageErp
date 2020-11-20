@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="a24motto" xml:space="preserve">
+    <value>L'Union fait la force.</value>
+  </data>
+  <data name="a25text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="about" xml:space="preserve">
+    <value>A propos de nous</value>
+  </data>
+  <data name="accessDenied" xml:space="preserve">
+    <value>Accès refusé.</value>
+  </data>
+  <data name="activeSeasonText" xml:space="preserve">
+    <value>Saison active :</value>
+  </data>
+  <data name="addAlliance" xml:space="preserve">
+    <value>Ajouter Alliance</value>
+  </data>
+  <data name="addOfficer" xml:space="preserve">
+    <value>Ajouter Officier</value>
+  </data>
+  <data name="addSeason" xml:space="preserve">
+    <value>Ajouter Saison</value>
+  </data>
+  <data name="admin" xml:space="preserve">
+    <value>Administrateur</value>
+  </data>
+  <data name="adminlogin" xml:space="preserve">
+    <value>Identification Administrateur</value>
+  </data>
+  <data name="adminPanel" xml:space="preserve">
+    <value>Panneau Administrateur</value>
+  </data>
+  <data name="alliance" xml:space="preserve">
+    <value>Alliance</value>
+  </data>
+  <data name="allianceList" xml:space="preserve">
+    <value>Liste des Performances de l'Alliance</value>
+  </data>
+  <data name="allianceName" xml:space="preserve">
+    <value>Nom de l'Alliance</value>
+  </data>
+  <data name="alliMatch" xml:space="preserve">
+    <value>Une Alliance porte déjà ce nom. Impossible de donner le même.</value>
+  </data>
+  <data name="backToList" xml:space="preserve">
+    <value>Retour à la liste</value>
+  </data>
+  <data name="box1" xml:space="preserve">
+    <value>W&amp;R   /   War and Respect</value>
+  </data>
+  <data name="box2" xml:space="preserve">
+    <value>S835  /  The Lacedaemonians</value>
+  </data>
+  <data name="box3" xml:space="preserve">
+    <value>35FF / The Fighting Farmers</value>
+  </data>
+  <data name="box4" xml:space="preserve">
+    <value>FK35 / French Kiss</value>
+  </data>
+  <data name="box5" xml:space="preserve">
+    <value>AK35 / Ardrahan Knights</value>
+  </data>
+  <data name="box6" xml:space="preserve">
+    <value>TSSL / The Supreme Latinos</value>
+  </data>
+  <data name="create" xml:space="preserve">
+    <value>Créer</value>
+  </data>
+  <data name="createPlayer" xml:space="preserve">
+    <value>Créer Joueur</value>
+  </data>
+  <data name="databaseOp" xml:space="preserve">
+    <value>Opérations de la base de données</value>
+  </data>
+  <data name="dbError" xml:space="preserve">
+    <value>Erreur base de données</value>
+  </data>
+  <data name="dbErrorTex" xml:space="preserve">
+    <value>Les données que vous essayez d'effacer ont donné lieu à d'autres données. Si vous souhaiter effacer ces données, vous devez effacer les autres d'abord. (exemple : Joueurs ou Performances).</value>
+  </data>
+  <data name="death" xml:space="preserve">
+    <value>Morts</value>
+  </data>
+  <data name="deathb" xml:space="preserve">
+    <value>Base de morts</value>
+  </data>
+  <data name="deathl" xml:space="preserve">
+    <value>Morts restants</value>
+  </data>
+  <data name="deathPercent" xml:space="preserve">
+    <value>Points de mort</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="deletePlayer" xml:space="preserve">
+    <value>Effacer Performance</value>
+  </data>
+  <data name="deletePlayer2" xml:space="preserve">
+    <value>Êtes vous sûr de vouloir supprimer ce joueur ? Cette action est irréversible.</value>
+  </data>
+  <data name="deleteText" xml:space="preserve">
+    <value>Êtes vous sûr de vouloir supprimer ? Cette action est irréversible.</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Editer</value>
+  </data>
+  <data name="editPlayer" xml:space="preserve">
+    <value>Editer joueur</value>
+  </data>
+  <data name="emptyError" xml:space="preserve">
+    <value>Surnom ou Alliance ne peuvent être vide. Réessayez s'il vous plait.</value>
+  </data>
+  <data name="hbox1" xml:space="preserve">
+    <value>Royaume avec règlement</value>
+  </data>
+  <data name="hbox1t" xml:space="preserve">
+    <value>Êtes vous souvent insultés ? Faites vous souvent face à des guerres civiles ? Tout ce dont vous avez besoin est 1835. Nos règles sont mises en place par un Conseil et appliquées par tous les joueurs du Royaume. Si quelqu'un les enfreint, peu importe sa position, il sera sanctionné.</value>
+  </data>
+  <data name="hbox2" xml:space="preserve">
+    <value>Royaume International</value>
+  </data>
+  <data name="hbox2t" xml:space="preserve">
+    <value>Vous manquez toujours de renforts durant les guerres ? Combattez vous toujours seul(e) ? Ces choses sont imaginaires à 1835. Nous sommes un Royaume très actif et avons des joueurs du monde entier. Vous ne vous sentirez jamais seul(e) !</value>
+  </data>
+  <data name="hbox3" xml:space="preserve">
+    <value>Système d'évènements Fiable et Compétent</value>
+  </data>
+  <data name="hbox3t" xml:space="preserve">
+    <value>Est-ce que des baleines vous prennent tous les évènements dans votre Royaume ? Vous ne pouvez pas évoluer ? Au Royaume 1835, des évènements pour les gouverneurs les plus puissants et certains des évènements des 20 sculptures d'or sont organisés pour  les joueurs d'échelon 4. Nous tenons à nos joueurs d'échelon 5, mais nous n'avons pas abandonné nos braves joueurs d'échelon 4. Nous tenons à tous nos joueurs.</value>
+  </data>
+  <data name="hbox4" xml:space="preserve">
+    <value>Joueurs braves et expérimentés</value>
+  </data>
+  <data name="hbox4t" xml:space="preserve">
+    <value>Nous n'acceptons que des guerriers s'étant montrés braves.</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Page d'Accueil</value>
+  </data>
+  <data name="honor" xml:space="preserve">
+    <value>Honneur</value>
+  </data>
+  <data name="honorb" xml:space="preserve">
+    <value>Base d'Honneur</value>
+  </data>
+  <data name="honorl" xml:space="preserve">
+    <value>Honneur Restant</value>
+  </data>
+  <data name="honorPercent" xml:space="preserve">
+    <value>Points d'Honneur</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="isActive" xml:space="preserve">
+    <value>Est Actif ?</value>
+  </data>
+  <data name="kdt" xml:space="preserve">
+    <value>Total Morts Royaume :</value>
+  </data>
+  <data name="kht" xml:space="preserve">
+    <value>Total Honneur Royaume :</value>
+  </data>
+  <data name="killPercentt4" xml:space="preserve">
+    <value>T4 Points de mises à morts</value>
+  </data>
+  <data name="killPercentt5" xml:space="preserve">
+    <value>T5 Points de mises à morts</value>
+  </data>
+  <data name="kingdom" xml:space="preserve">
+    <value>Royaume</value>
+  </data>
+  <data name="kingdom1835" xml:space="preserve">
+    <value>Royaume 1835</value>
+  </data>
+  <data name="kingdomMembers" xml:space="preserve">
+    <value>Membres du Royaume</value>
+  </data>
+  <data name="krsst" xml:space="preserve">
+    <value>Total Aide en Ressources du Royaume :</value>
+  </data>
+  <data name="kt4kt" xml:space="preserve">
+    <value>Total Mises à morts T4 du Royaume :</value>
+  </data>
+  <data name="kt5kt" xml:space="preserve">
+    <value>Total Mises à Morts T5 du Royaume :</value>
+  </data>
+  <data name="kvk" xml:space="preserve">
+    <value>Classement Kvk (Royaume perdu)</value>
+  </data>
+  <data name="kvkRanking" xml:space="preserve">
+    <value>Classement Kvk (Royaume perdu)</value>
+  </data>
+  <data name="landingPage" xml:space="preserve">
+    <value>Page d'atterissage</value>
+  </data>
+  <data name="lastbox" xml:space="preserve">
+    <value>Voici quelques raisons pour lesquelles vous devriez rejoindre 1835 maintenant !</value>
+  </data>
+  <data name="lastboxs" xml:space="preserve">
+    <value>A propos de notre Royaume</value>
+  </data>
+  <data name="listEditAlliance" xml:space="preserve">
+    <value>Lister / Editer Alliance</value>
+  </data>
+  <data name="listEditOfficers" xml:space="preserve">
+    <value>Lister / Editer Officiers</value>
+  </data>
+  <data name="listEditPerformances" xml:space="preserve">
+    <value>Lister / Editer Performances</value>
+  </data>
+  <data name="listEditPlayers" xml:space="preserve">
+    <value>Lister / Editer Joueurs</value>
+  </data>
+  <data name="listEditSeason" xml:space="preserve">
+    <value>Lister / Editer Saison</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>S'identifier</value>
+  </data>
+  <data name="logout" xml:space="preserve">
+    <value>Se déconnecter</value>
+  </data>
+  <data name="managementPanel" xml:space="preserve">
+    <value>Panneau de Gestion</value>
+  </data>
+  <data name="matchedUsername" xml:space="preserve">
+    <value>Ce nom est déjà pris. Action impossible. Réessayez avec un nom différent s'il vous plait.</value>
+  </data>
+  <data name="membox1" xml:space="preserve">
+    <value>Avec une forte activité et un système de récompense équitable, nous vous offrons un Royaume très heureux. Vous ne vous y sentirez jamais seul(e).</value>
+  </data>
+  <data name="membox1s" xml:space="preserve">
+    <value>Membres du Royaume heureux.</value>
+  </data>
+  <data name="membox2" xml:space="preserve">
+    <value>Notre équipe informatique travaille pour vous. Nous avons notre propre site internet. Vous pouvez toujours suivre vos points sur notre site à n'importe quel moment. Les récompenses du Royaume Perdu seront partagées de manière juste par rapport à nos systèmes.</value>
+  </data>
+  <data name="membox2s" xml:space="preserve">
+    <value>Système de récompense équitable.</value>
+  </data>
+  <data name="membox3" xml:space="preserve">
+    <value>Notre Royaume a des joueurs venant du monde entier. Sa direction est partagée entre les officiers en ligne. Vous n'aurez jamais à attendre pour faire quelque chose à 1835 !</value>
+  </data>
+  <data name="membox3s" xml:space="preserve">
+    <value>Forte activité.</value>
+  </data>
+  <data name="membox4" xml:space="preserve">
+    <value>Avec l'équipe de planning stratégique et des R4 très actifs venant de toutes alliances, la victoire sera nôtre à chaque bataille !</value>
+  </data>
+  <data name="membox4s" xml:space="preserve">
+    <value>Gagnant du Kvk.</value>
+  </data>
+  <data name="motto" xml:space="preserve">
+    <value>Bienvenue au Royaume 1835...</value>
+  </data>
+  <data name="move" xml:space="preserve">
+    <value>Bougez !</value>
+  </data>
+  <data name="nickname" xml:space="preserve">
+    <value>Surnom</value>
+  </data>
+  <data name="noActiveSeason" xml:space="preserve">
+    <value>Pas de saison active</value>
+  </data>
+  <data name="noAlliance" xml:space="preserve">
+    <value>Pas d'alliance. Demandez s'il vous plait à vos super administrateur d'ajouter l'alliance dans la base de données du système.</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="noPreparation" xml:space="preserve">
+    <value>No season preparation</value>
+  </data>
+  <data name="noSeason" xml:space="preserve">
+    <value>Les valeurs de performances ne peuvent être sauvegardées car il n'y a pas de saison active.</value>
+  </data>
+  <data name="notEditable" xml:space="preserve">
+    <value>Sauvegarde réussie par le joueur mais cette saison est désactivée. Les données de performances archivées ne peuvent être modifiées !</value>
+  </data>
+  <data name="officer" xml:space="preserve">
+    <value>Officier</value>
+  </data>
+  <data name="officers" xml:space="preserve">
+    <value>Officiers</value>
+  </data>
+  <data name="openfield" xml:space="preserve">
+    <value>Champs de bataille</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="performanceAlliance" xml:space="preserve">
+    <value>Alliance (dans Performance)</value>
+  </data>
+  <data name="performanceCreate" xml:space="preserve">
+    <value>Créer Performance</value>
+  </data>
+  <data name="performanceTable" xml:space="preserve">
+    <value>Tableau des Performances</value>
+  </data>
+  <data name="performanceTableTex" xml:space="preserve">
+    <value>Vous pouvez voir les performances d'un joueur dans ce tableau.</value>
+  </data>
+  <data name="performanceText" xml:space="preserve">
+    <value>Vous pouvez créer une performance de joueur pour activer la saison dans ce tableau. Attention, il devra y avoir une saison active, sinon le processus de création ne pourra fonctionner.</value>
+  </data>
+  <data name="player" xml:space="preserve">
+    <value>Joueur</value>
+  </data>
+  <data name="players" xml:space="preserve">
+    <value>Joueurs</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>Points totaux</value>
+  </data>
+  <data name="prepActive" xml:space="preserve">
+    <value>Une saison ne peut être "en préparation" et "active" en même temps. Soyez sûrs de choisir une catégorie. PAS LES DEUX !</value>
+  </data>
+  <data name="preparation" xml:space="preserve">
+    <value>Préparation</value>
+  </data>
+  <data name="rallyandgarrison" xml:space="preserve">
+    <value>Rally / Garnison</value>
+  </data>
+  <data name="rbox1" xml:space="preserve">
+    <value>PAS DE VULGARITÉ</value>
+  </data>
+  <data name="rbox1t" xml:space="preserve">
+    <value>Abuser verbalement d'autres joueurs est complétement interdit dans notre Royaume. Vous devez respecter tout le monde, même vos ennemis.</value>
+  </data>
+  <data name="rbox2" xml:space="preserve">
+    <value>PAS DE RACISME</value>
+  </data>
+  <data name="rbox2t" xml:space="preserve">
+    <value>Le racisme est complétement interdit dans notre Royaume. Vous devez respecter tout le monde, même vos ennemis.</value>
+  </data>
+  <data name="rbox3" xml:space="preserve">
+    <value>PAS D'ATTAQUES DE VILLE</value>
+  </data>
+  <data name="rbox3t" xml:space="preserve">
+    <value>Les joueurs du Royaume ne peuvent attaquer d'autres villes sauf sur ordre du Conseil.</value>
+  </data>
+  <data name="rbox4" xml:space="preserve">
+    <value>SUIVRE LES RÈGLES DU MGE (Le Plus Grand Gouverneur)</value>
+  </data>
+  <data name="rbox4t" xml:space="preserve">
+    <value>Le Conseil envoie les règles du MGE (Le Plus Grand Gouverneur) avant que l'évènement ne commence.</value>
+  </data>
+  <data name="rbox5" xml:space="preserve">
+    <value>RÈGLES DE L'EVENEMENT</value>
+  </data>
+  <data name="rbox5t" xml:space="preserve">
+    <value>Le Conseil envoie des règles d'évènement spécifiques avant que celui-ci ne commence.</value>
+  </data>
+  <data name="rbox6" xml:space="preserve">
+    <value>DISCORD EST NÉCESSAIRE</value>
+  </data>
+  <data name="rbox6t" xml:space="preserve">
+    <value>Les joueurs du Royaume devraient utiliser Discord. La meilleure arme pour les combats est la communication, et nous utilisons cette arme efficacement.</value>
+  </data>
+  <data name="registerMembers" xml:space="preserve">
+    <value>Enregistrer membres</value>
+  </data>
+  <data name="role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="rss" xml:space="preserve">
+    <value>RSS (Ressources)</value>
+  </data>
+  <data name="rssb" xml:space="preserve">
+    <value>Base RSS</value>
+  </data>
+  <data name="rssl" xml:space="preserve">
+    <value>RSS restantes</value>
+  </data>
+  <data name="rssPercent" xml:space="preserve">
+    <value>Points de Ressources</value>
+  </data>
+  <data name="rules" xml:space="preserve">
+    <value>Règlement</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="saveToSeason" xml:space="preserve">
+    <value>Sauvegarder vers Saison</value>
+  </data>
+  <data name="Season" xml:space="preserve">
+    <value>Saison</value>
+  </data>
+  <data name="seasonMatch" xml:space="preserve">
+    <value>Une saison porte déjà le même nom. Impossible de l'utiliser.</value>
+  </data>
+  <data name="seasonName" xml:space="preserve">
+    <value>Nom de la Saison</value>
+  </data>
+  <data name="serverError" xml:space="preserve">
+    <value>Une erreur inconnue s'est produite. Veuillez la reporter au I.T s'il vous plait.</value>
+  </data>
+  <data name="slogan" xml:space="preserve">
+    <value>Où les Légendes sont nées !</value>
+  </data>
+  <data name="submit" xml:space="preserve">
+    <value>Soumettre</value>
+  </data>
+  <data name="success_db" xml:space="preserve">
+    <value>Action réussie.</value>
+  </data>
+  <data name="superadmin" xml:space="preserve">
+    <value>Super Administrateur</value>
+  </data>
+  <data name="t4k" xml:space="preserve">
+    <value>Mises à mort T4</value>
+  </data>
+  <data name="t4kb" xml:space="preserve">
+    <value>Base des mises à mort T4</value>
+  </data>
+  <data name="t4kl" xml:space="preserve">
+    <value>Mises à mort T4 restantes</value>
+  </data>
+  <data name="t5k" xml:space="preserve">
+    <value>Mises à mort T5</value>
+  </data>
+  <data name="t5kb" xml:space="preserve">
+    <value>Base des mises à morts T5</value>
+  </data>
+  <data name="t5kl" xml:space="preserve">
+    <value>Mises à mort T5 restantes</value>
+  </data>
+  <data name="table" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="tableAciklama" xml:space="preserve">
+    <value>Les informations de tous les joueurs sont stockées dans la base de données (mises à mort de T4 et T5, morts, aides ressources et points d'honneur.)
+
+1) Le système calcule les valeurs totales. Par exemple : (x*100)/total, où "x" est votre nombre de mises à mort T4 et "total" représente le nombre de mises à mort T4 du Royaume. Le résultat montrera votre taux de contribution sur 100%.
+La dernière étape est de multiplier votre pourcentage avec les points de la saison Kvk. Ces points sont fixés par le Roi. Par exemple, disons que votre (x*100)/total est 24% pour les mises à mort T4 et le roi à fixé un score de mises à mort T4 de 0,7. Cela signifie que vous gagnerez 16,8 points de vos mises à mort T4.</value>
+  </data>
+  <data name="tableExp" xml:space="preserve">
+    <value>Les informations de tous les joueurs sont stockées dans la base de données (mises à mort de T4 et T5, morts, aides ressources et points d'honneur.)
+
+1) Le système calcule les valeurs totales. Par exemple : (x*100)/total, où "x" est votre nombre de mises à mort T4 et "total" représente le nombre de mises à mort T4 du Royaume. Le résultat montrera votre taux de contribution sur 100%.
+La dernière étape est de multiplier votre pourcentage avec les points de la saison Kvk. Ces points sont fixés par le Roi. Par exemple, disons que votre (x*100)/total est 24% pour les mises à mort T4 et le roi à fixé un score de mises à mort T4 de 0,7. Cela signifie que vous gagnerez 16,8 points de vos mises à mort T4.</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>Type de joueur</value>
+  </data>
+  <data name="typeError" xml:space="preserve">
+    <value>Les valeurs de Performance doivent être un nombre. Réessayez s'il vous plait.</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>Nom d'Utilisateur</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>Bienvenue</value>
+  </data>
+  <data name="wipeAlliance" xml:space="preserve">
+    <value>Effacer Alliance</value>
+  </data>
+  <data name="wipeMessage" xml:space="preserve">
+    <value>Cette action va effacer toutes les données appartenant au message que vous souhaitez supprimer. Cette action est irréversible. Etes vous sûr de vouloir effacer ces données ?</value>
+  </data>
+  <data name="WipeSeason" xml:space="preserve">
+    <value>Effacer Saison</value>
+  </data>
+  <data name="wipeWarning" xml:space="preserve">
+    <value>Attention !</value>
+  </data>
+  <data name="compsci" xml:space="preserve">
+    <value>Informaticien</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="team" xml:space="preserve">
+    <value>équipe</value>
+  </data>
+</root>

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<k1835web.Models.Kullanici>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Kullanıcılar</h2>
+
+<p>
+    @Html.ActionLink("Kullanıcı Ekle", "Create", new { controller = "Admins" }, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Kullaniciadi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Isim)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Soyisim)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sifre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kullaniciadi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Isim)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Soyisim)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sifre)
+        </td>
+
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", new { controller = "Admins", id = item.Id }, new { @class = "btn btn-default btn-sm" }) |
+            @Html.ActionLink("Sil", "Delete", new { controller = "Admins", id = item.Id }, new { @class = "btn btn-danger btn-sm" })
+        </td>
+    </tr>
+}
+
+</table>

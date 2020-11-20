@@ -1,0 +1,62 @@
+﻿@model IEnumerable<k1835web.Models.DepoGirisCikis>
+@{
+    ViewBag.Title = "panel";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Panel</h2>
+
+<div class="x_panel">
+
+    <div class="x_content">
+
+
+        <table id="datatable-responsives" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>Fis No</th>
+                    <th>Tip</th>
+                    <th>Tarih</th>
+                    <th>Depo</th>
+                    <th>Stok Kartı</th>
+                    <th>Miktar</th>
+                    <th>İşlemi Yapan</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    if (Model != null)
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr> 
+                                <td>@item.FisNo</td>
+                                <td>@item.Tip</td>
+                                <td>@item.Tarih</td>
+                                <td>@item.Stok.Depo.Ad</td>
+                                <td>@item.Stok.Adi</td>
+                                <td>@item.Miktar</td>
+                                <td>@item.Kullanici.Isim @item.Kullanici.Soyisim</td>
+                                
+                            </tr>
+                        }
+                    }
+
+                }
+
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#datatable-responsives').DataTable();
+    });
+
+
+
+</script>

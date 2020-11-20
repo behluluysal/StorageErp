@@ -1,0 +1,138 @@
+﻿@model IEnumerable<k1835web.Models.StokKarti>
+@{
+    ViewBag.Title = "Islem";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>@ViewBag.depoAdi</h2>
+
+<div class="x_panel">
+
+    <div class="x_content">
+
+
+        <table id="datatable-responsives" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>Stok Kodu</th>
+                    <th>Stok Adı</th>
+                    <th>Stok Fiyatı</th>
+                    <th>KDV</th>
+                    <th>Açıklama</th>
+                    <th>Miktar</th>
+                    <th>Kayıt Yapan</th>
+                    <th>Resim</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    if (Model != null)
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Kodu</td>
+                                <td>@item.Adi</td>
+                                <td>@item.Fiyat</td>
+                                <td>@item.Kdv</td>
+                                <td>@item.Aciklama</td>
+                                <td>@item.Miktar</td>
+                                <td>@item.KayitYapanAdSoyad</td>
+                                <td><img src="~/img/@item.Resim" style="width:50px;height:auto;" /></td>
+                                <td><button type="button" class="btn btn-primary" onclick="islemModal(@item.Id);">İşlem</button></td>
+                            </tr>
+                        }
+                    }
+
+                }
+
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+
+<!-- Modal duzenle -->
+<div class="modal fade" id="islemModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">İşlem Penceresi</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="islemForm" method="post" class="form-horizontal form-label-left input_mask">
+
+                    @Html.AntiForgeryToken()
+                    <input id="stokid" name="id" type="hidden" />
+                    <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                        <label class="control-label">Fiş Numarası</label>
+                        <input type="text" class="form-control" name="Fis" placeholder="Fiş Numarası" required>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                        <label class="control-label">İşlem Türü</label>
+                        <select name="Tip" class="form-control">
+                            <option value="giris">Giriş</option>
+                            <option value="cikis">Çıkış</option>
+                        </select>
+
+                    </div>
+
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                        <label class="control-label">Miktar</label>
+                        <input type="text" class="form-control" name="Miktar" placeholder="İşlem Miktarı" required>
+                    </div>
+
+
+                    <div class="ln_solid"></div>
+                    <div class="form-group">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+
+                            <button style="float:right" type="submit" class="btn btn-success">Onayla</button>
+                            <button style="float:right" type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#datatable-responsives').DataTable();
+    });
+
+    function islemModal(id) {
+        $("#islemModal").modal();
+        $("#stokid").val(id);
+    }
+
+
+</script>
+
+@if (ViewBag.hata != null)
+{
+    
+    if(ViewBag.hata == "miktarFazla")
+    {
+        <script>
+            $(document).ready(function () {
+                new PNotify({
+                    title: 'Hata!',
+                    text: 'Çıkış işlemi mevcut miktardan fazla olamaz.',
+                    type: 'error',
+                    styling: 'bootstrap3',
+                    delay: 2500,
+                });
+            });
+        </script>
+    }
+}

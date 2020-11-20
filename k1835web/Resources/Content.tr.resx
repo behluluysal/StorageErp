@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="a24motto" xml:space="preserve">
+    <value>Beraberken güçlüyüz,ayrıyken güçsüzüz</value>
+  </data>
+  <data name="a25text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="about" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="accessDenied" xml:space="preserve">
+    <value>Buraya giriş hakkınız yok.</value>
+  </data>
+  <data name="activeSeasonText" xml:space="preserve">
+    <value>Aktif Sezon</value>
+  </data>
+  <data name="addAlliance" xml:space="preserve">
+    <value>İttifak Ekle</value>
+  </data>
+  <data name="addOfficer" xml:space="preserve">
+    <value>Subay Ekle</value>
+  </data>
+  <data name="addSeason" xml:space="preserve">
+    <value>Sezon Ekle</value>
+  </data>
+  <data name="admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="adminlogin" xml:space="preserve">
+    <value>Yönetici Giriş Sayfası</value>
+  </data>
+  <data name="adminPanel" xml:space="preserve">
+    <value>Admin Panel</value>
+  </data>
+  <data name="alliance" xml:space="preserve">
+    <value>İttifak</value>
+  </data>
+  <data name="allianceList" xml:space="preserve">
+    <value>İttifak Performans Listesi</value>
+  </data>
+  <data name="allianceName" xml:space="preserve">
+    <value>İttifak Adı</value>
+  </data>
+  <data name="alliMatch" xml:space="preserve">
+    <value>Farkı bir ittifakta ismin var.Yayınlanmış isimler kabul edilemez.</value>
+  </data>
+  <data name="backToList" xml:space="preserve">
+    <value>Listeye geri dön</value>
+  </data>
+  <data name="box1" xml:space="preserve">
+    <value>W&amp;R   /    War and Respect</value>
+  </data>
+  <data name="box2" xml:space="preserve">
+    <value>S835  /  The Lacedaemonians</value>
+  </data>
+  <data name="box3" xml:space="preserve">
+    <value>35FF / The Fighting Farmers</value>
+  </data>
+  <data name="box4" xml:space="preserve">
+    <value>FK35 / French Kiss</value>
+  </data>
+  <data name="box5" xml:space="preserve">
+    <value>AK35 / Ardrahan Knights</value>
+  </data>
+  <data name="box6" xml:space="preserve">
+    <value>TSSL / The Supreme Latinos</value>
+  </data>
+  <data name="create" xml:space="preserve">
+    <value>Oluştur</value>
+  </data>
+  <data name="createPlayer" xml:space="preserve">
+    <value>Oyuncu Kaydı</value>
+  </data>
+  <data name="databaseOp" xml:space="preserve">
+    <value>Veritabanı İşlemleri</value>
+  </data>
+  <data name="dbError" xml:space="preserve">
+    <value>Veritabanı Hatası</value>
+  </data>
+  <data name="dbErrorTex" xml:space="preserve">
+    <value>Silmeye çalıştığınız verilerin veritabanında alt öğeleri var. Bu verileri kaldırmak istiyorsanız, önce çocukları silmelisiniz. (eq: Oyuncular veya performanslar).</value>
+  </data>
+  <data name="death" xml:space="preserve">
+    <value>Ölü Sayısı</value>
+  </data>
+  <data name="deathb" xml:space="preserve">
+    <value>Başlangıç ölü sayısı</value>
+  </data>
+  <data name="deathl" xml:space="preserve">
+    <value>Bitiş ölü sayısı</value>
+  </data>
+  <data name="deathPercent" xml:space="preserve">
+    <value>Ölü puanı</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="deletePlayer" xml:space="preserve">
+    <value>Performans Sil</value>
+  </data>
+  <data name="deletePlayer2" xml:space="preserve">
+    <value>Bu oyuncuyu silmek istediğinizden emin misiniz? Bu süreç geri alınamaz</value>
+  </data>
+  <data name="deleteText" xml:space="preserve">
+    <value>Bu nesneyi silmek istediğinizden emin misiniz? Bu süreç geri alınamaz.</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Detaylar</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Düzenleme</value>
+  </data>
+  <data name="editPlayer" xml:space="preserve">
+    <value>Oyuncu Düzenleme</value>
+  </data>
+  <data name="emptyError" xml:space="preserve">
+    <value>Kullanıcı Adı veya İttifak boş olamaz. Lütfen tekrar deneyin.</value>
+  </data>
+  <data name="hbox1" xml:space="preserve">
+    <value>Kurala Dayalı Krallık</value>
+  </data>
+  <data name="hbox1t" xml:space="preserve">
+    <value>Her zaman sözlü tacize mi uğruyorsunuz? Sık sık iç savaş mı yaşıyorsunuz? İhtiyacınız olan tek şey 1835. Kurallarımız konsey tarafından belirlenir ve krallıktaki her oyuncuya uygulanır. Rütbesi ne olursa olsun kuralları çiğnerse cezalar olur.</value>
+  </data>
+  <data name="hbox2" xml:space="preserve">
+    <value>Uluslararası Krallık</value>
+  </data>
+  <data name="hbox2t" xml:space="preserve">
+    <value>Savaşlar sırasında her zaman takviye eksikliği mi oluyor? Hep yalnız mı savaşıyorsun? Bunlar sadece 1835'te hayal gücümüzde. Son derece aktif bir krallığız ve dünyanın her yerinde oyuncularımız var. Bir daha asla yalnız hissetmeyeceksin!</value>
+  </data>
+  <data name="hbox3" xml:space="preserve">
+    <value>Verimli ve Adil Event Sistemi</value>
+  </data>
+  <data name="hbox3t" xml:space="preserve">
+    <value>Krallığınızdaki tüm etkinlikleri balinalar alıyor mu? Gelişemiyor musun ? 1835'te En Güçlü Vali Etkinlikleri ve 20 altın heykel etkinliğinden bazıları T4 oyuncular için ayarlandı. T5 oyuncularımızı önemsiyoruz ama cesur T4 oyuncularımızı da terk etmedik. Altyapımıza önem veriyoruz.</value>
+  </data>
+  <data name="hbox4" xml:space="preserve">
+    <value>Cesur ve Tecrübeli Oyuncular</value>
+  </data>
+  <data name="hbox4t" xml:space="preserve">
+    <value>Sadece cesaretini gösteren savaşçıları kabul ediyoruz</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Ev</value>
+  </data>
+  <data name="honor" xml:space="preserve">
+    <value>Onur Puanı</value>
+  </data>
+  <data name="honorb" xml:space="preserve">
+    <value>Onur Puanı Başlangıcı</value>
+  </data>
+  <data name="honorl" xml:space="preserve">
+    <value>Onur Puanı Başlangıcı</value>
+  </data>
+  <data name="honorPercent" xml:space="preserve">
+    <value>Onur Puanı</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="isActive" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="kdt" xml:space="preserve">
+    <value>Krallık Ölü Sayısı Toplamı</value>
+  </data>
+  <data name="kht" xml:space="preserve">
+    <value>Krallık Onur Puanı Sayısı Toplamı</value>
+  </data>
+  <data name="killPercentt4" xml:space="preserve">
+    <value>T4 Ölü Sayısı</value>
+  </data>
+  <data name="killPercentt5" xml:space="preserve">
+    <value>T5 Ölü Sayısı</value>
+  </data>
+  <data name="kingdom" xml:space="preserve">
+    <value>Krallık</value>
+  </data>
+  <data name="kingdom1835" xml:space="preserve">
+    <value>Krallık 1835</value>
+  </data>
+  <data name="kingdomMembers" xml:space="preserve">
+    <value>Krallık Üyeleri</value>
+  </data>
+  <data name="krsst" xml:space="preserve">
+    <value>Krallık Toplam Kaynak Desteği</value>
+  </data>
+  <data name="kt4kt" xml:space="preserve">
+    <value>Krallık Toplam T4 Ölü Sayısı</value>
+  </data>
+  <data name="kt5kt" xml:space="preserve">
+    <value>Krallık Toplam T5 Ölü Sayısı</value>
+  </data>
+  <data name="kvk" xml:space="preserve">
+    <value>Kvk Sıralaması</value>
+  </data>
+  <data name="kvkRanking" xml:space="preserve">
+    <value>Kvk Sıralaması</value>
+  </data>
+  <data name="landingPage" xml:space="preserve">
+    <value>Açılış Sayfası</value>
+  </data>
+  <data name="lastbox" xml:space="preserve">
+    <value>İşte şimdi 1835'e katılmanız için bazı nedenler!</value>
+  </data>
+  <data name="lastboxs" xml:space="preserve">
+    <value>Krallığımız Hakkında</value>
+  </data>
+  <data name="listEditAlliance" xml:space="preserve">
+    <value>İttifak Listesi / Düzenleme</value>
+  </data>
+  <data name="listEditOfficers" xml:space="preserve">
+    <value>Subay Listesi / Düzenleme</value>
+  </data>
+  <data name="listEditPerformances" xml:space="preserve">
+    <value>Performans Listesi / Düzenleme</value>
+  </data>
+  <data name="listEditPlayers" xml:space="preserve">
+    <value>Oyuncu Listesi / Düzenleme</value>
+  </data>
+  <data name="listEditSeason" xml:space="preserve">
+    <value>Sezon Listesi / Düzenleme</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Oturum Aç</value>
+  </data>
+  <data name="logout" xml:space="preserve">
+    <value>Çıkış Yap</value>
+  </data>
+  <data name="managementPanel" xml:space="preserve">
+    <value>Yönetim paneli</value>
+  </data>
+  <data name="matchedUsername" xml:space="preserve">
+    <value>Bu kullanıcı adı zaten alınmış. İşlem devam edemez. Lütfen farklı bir kullanıcı adıyla tekrar deneyin</value>
+  </data>
+  <data name="membox1" xml:space="preserve">
+    <value>Yüksek etkinlik ve adil ödül sistemi ile sizlere çok mutlu bir krallık sunuyoruz. Krallığımızda asla yalnız hissetmeyeceksin.</value>
+  </data>
+  <data name="membox1s" xml:space="preserve">
+    <value>Mutlu Krallık Üyeleri</value>
+  </data>
+  <data name="membox2" xml:space="preserve">
+    <value>Bilgi Teknolojimiz takımımız sizin için çalışıyor. Kendi web sitemiz var ve sizin için uygulamalar çalışıyoruz. Puanlarınızı dilediğiniz zaman web sitemizde takip edebilirsiniz. Kvk ödülleri, sistemimize göre adil bir şekilde paylaşılacaktır.</value>
+  </data>
+  <data name="membox2s" xml:space="preserve">
+    <value>Eşit ödül sistemi</value>
+  </data>
+  <data name="membox3" xml:space="preserve">
+    <value>Krallığımızın dünyanın her yerinde oyuncuları var. Krallık, çevrimiçi Subaylar arasında dönüyor. 1835'te bir şey yapmak için asla beklemek zorunda kalmayacaksınız!</value>
+  </data>
+  <data name="membox3s" xml:space="preserve">
+    <value>Yüksek Aktivite</value>
+  </data>
+  <data name="membox4" xml:space="preserve">
+    <value>Stratejik planlama ekibi ve tüm ittifaklardan son derece aktif r4 ile, her savaşta zafer bizim olacak!</value>
+  </data>
+  <data name="membox4s" xml:space="preserve">
+    <value>Kvk kazananı.</value>
+  </data>
+  <data name="motto" xml:space="preserve">
+    <value>1835 Krallığına Hoşgeldiniz</value>
+  </data>
+  <data name="move" xml:space="preserve">
+    <value>Hareket Et</value>
+  </data>
+  <data name="nickname" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="noActiveSeason" xml:space="preserve">
+    <value>Aktif Sezon Yok</value>
+  </data>
+  <data name="noAlliance" xml:space="preserve">
+    <value>İttifak boş olamaz. Lütfen süper yöneticilerinize sistem veritabanına ittifaklar eklemelerini söyleyin.</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="noPreparation" xml:space="preserve">
+    <value>Hazırlık Sezonu Yok</value>
+  </data>
+  <data name="noSeason" xml:space="preserve">
+    <value>Aktif sezon olmadığı için performans değerleri kaydedilemez.</value>
+  </data>
+  <data name="notEditable" xml:space="preserve">
+    <value>Oyuncu başarıyla kurtardı ancak bu sezon devre dışı bırakıldı. Arşivlenen performans verileri değiştirilemez!</value>
+  </data>
+  <data name="officer" xml:space="preserve">
+    <value>Subay</value>
+  </data>
+  <data name="officers" xml:space="preserve">
+    <value>Subaylar</value>
+  </data>
+  <data name="openfield" xml:space="preserve">
+    <value>Açıkalan</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="performanceAlliance" xml:space="preserve">
+    <value>İttifak (Performansı)</value>
+  </data>
+  <data name="performanceCreate" xml:space="preserve">
+    <value>Performans Oluştur</value>
+  </data>
+  <data name="performanceTable" xml:space="preserve">
+    <value>Performans Tablosu</value>
+  </data>
+  <data name="performanceTableTex" xml:space="preserve">
+    <value>Oyuncu performanslarını bu sayfada görebilirsiniz.</value>
+  </data>
+  <data name="performanceText" xml:space="preserve">
+    <value>Bu sekmede aktif sezon için oyuncu performansı oluşturabilirsiniz. Aktif bir sezon olmalı, aksi takdirde oluşturulamaz.</value>
+  </data>
+  <data name="player" xml:space="preserve">
+    <value>Oyuncu</value>
+  </data>
+  <data name="players" xml:space="preserve">
+    <value>Oyuncular</value>
+  </data>
+  <data name="points" xml:space="preserve">
+    <value>Toplam Puan</value>
+  </data>
+  <data name="prepActive" xml:space="preserve">
+    <value>Bir sezon aynı anda hem "Hazırlık" hem de "Aktif" olarak ayarlanamaz. Lütfen Hazırlık veya Etkin ayarını yaptığınızdan emin olun. İKİSİDE DEĞİL!</value>
+  </data>
+  <data name="preparation" xml:space="preserve">
+    <value>Hazırlık</value>
+  </data>
+  <data name="rallyandgarrison" xml:space="preserve">
+    <value>Toplu Saldırı/Garnizon</value>
+  </data>
+  <data name="rbox1" xml:space="preserve">
+    <value>KÜFÜR YASAK</value>
+  </data>
+  <data name="rbox1t" xml:space="preserve">
+    <value>Başkalarını sözlü olarak kötüye kullanmak krallığımızda tamamen engellenmiştir. Herkese, düşmanlarınıza bile saygı duymalısınız.</value>
+  </data>
+  <data name="rbox2" xml:space="preserve">
+    <value>IRKÇILIK YASAK</value>
+  </data>
+  <data name="rbox2t" xml:space="preserve">
+    <value>Krallığımızda ırkçılık tamamen engellendi. Herkese, düşmanlarınıza bile saygı duymalısınız.</value>
+  </data>
+  <data name="rbox3" xml:space="preserve">
+    <value>ŞEHİR SALDIRISI YASAK</value>
+  </data>
+  <data name="rbox3t" xml:space="preserve">
+    <value>Krallık oyuncuları, konsey emri olmadan diğer şehirlere saldıramaz.</value>
+  </data>
+  <data name="rbox4" xml:space="preserve">
+    <value>EN BÜYÜK VALİ ETKİNLİĞİ KURALLARINI TAKİP ETMEK ZORUNLU</value>
+  </data>
+  <data name="rbox4t" xml:space="preserve">
+    <value>Konsey, etkinlik başlamadan önce En Güçlü Vali kurallarını gönderir.</value>
+  </data>
+  <data name="rbox5" xml:space="preserve">
+    <value>ETKİNLİK KURALLARI</value>
+  </data>
+  <data name="rbox5t" xml:space="preserve">
+    <value>Konsey, etkinlik başlamadan önce 20 Heykel Etkinlik kurallarını gönderir.</value>
+  </data>
+  <data name="rbox6" xml:space="preserve">
+    <value>DİSCORD ZORUNLUDUR</value>
+  </data>
+  <data name="rbox6t" xml:space="preserve">
+    <value>Krallık oyuncuları Discord kullanmalıdır. Savaşlarda en iyi silah iletişimdir. Ve bu silahı verimli bir şekilde kullanıyoruz.</value>
+  </data>
+  <data name="registerMembers" xml:space="preserve">
+    <value>Üyeleri Kaydet</value>
+  </data>
+  <data name="role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="rss" xml:space="preserve">
+    <value>Kaynak Desteği</value>
+  </data>
+  <data name="rssb" xml:space="preserve">
+    <value>Kaynak Desteği Başlangıcı</value>
+  </data>
+  <data name="rssl" xml:space="preserve">
+    <value>Son Kaynak Desteği</value>
+  </data>
+  <data name="rssPercent" xml:space="preserve">
+    <value>Kaynak Puanı</value>
+  </data>
+  <data name="rules" xml:space="preserve">
+    <value>Kurallar</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Kayıt</value>
+  </data>
+  <data name="saveToSeason" xml:space="preserve">
+    <value>Sezonu Kaydet</value>
+  </data>
+  <data name="Season" xml:space="preserve">
+    <value>Sezon</value>
+  </data>
+  <data name="seasonMatch" xml:space="preserve">
+    <value>Zaten aynı isimde bir sezon var. Yayınlanmış veriler kabul edilmez.</value>
+  </data>
+  <data name="seasonName" xml:space="preserve">
+    <value>Sezon Adı</value>
+  </data>
+  <data name="serverError" xml:space="preserve">
+    <value>Bilinmeyen bir hata oluştu. Lütfen I.T.'ye rapor verin.</value>
+  </data>
+  <data name="slogan" xml:space="preserve">
+    <value>Efsanelerin doğduğu yer!</value>
+  </data>
+  <data name="submit" xml:space="preserve">
+    <value>Teklif</value>
+  </data>
+  <data name="success_db" xml:space="preserve">
+    <value>İşlem Başarılı.</value>
+  </data>
+  <data name="superadmin" xml:space="preserve">
+    <value>Süper Yönetici</value>
+  </data>
+  <data name="t4k" xml:space="preserve">
+    <value>T4 Leş Sayısı</value>
+  </data>
+  <data name="t4kb" xml:space="preserve">
+    <value>T4 Leş Sayısı Başlangıcı</value>
+  </data>
+  <data name="t4kl" xml:space="preserve">
+    <value>T4 Leş Sayısı Sonu</value>
+  </data>
+  <data name="t5k" xml:space="preserve">
+    <value>T5 Leş Sayısı</value>
+  </data>
+  <data name="t5kb" xml:space="preserve">
+    <value>T5 Leş Sayısı Başlangıcı</value>
+  </data>
+  <data name="t5kl" xml:space="preserve">
+    <value>T5 Öldürme Sayısı Sonu</value>
+  </data>
+  <data name="table" xml:space="preserve">
+    <value>Tablo</value>
+  </data>
+  <data name="tableAciklama" xml:space="preserve">
+    <value>Her oyuncu kayıtları veritabanında saklanır (t4 öldürme, t5 öldürme, ölüm, Kaynak desteği, onur puanları). 1). Sistem toplam değerleri hesaplar. Bundan sonra sistem bu değerlere ne kadar katkıda bulunduğunuzu hesaplar. Örneğin: (x * 100) / toplam, burada x sizin t4 öldürmeleriniz ve toplam krallık t4 öldürmelerinizdir. Sonuç,% 100'de ne kadar katkıda bulunduğunuzu gösterecektir. Son adım, %'nizi kvk sezon puanı ile çarpmaktır. Bu noktalar kral tarafından belirlenir. Örneğin, (x * 100) / toplamınızın t4 öldürmeler için% 24 olduğunu ve şahın t4 öldürme puanını 0,7 olarak ayarladığını varsayalım. Bu, t4 öldürmelerinizden 16,8 puan alacağınız anlamına gelir.</value>
+  </data>
+  <data name="tableExp" xml:space="preserve">
+    <value>Her oyuncu kayıtları veritabanında saklanır (t4 öldürme, t5 öldürme, ölüm, Kaynak desteği, onur puanları). 1). Sistem toplam değerleri hesaplar. Bundan sonra sistem bu değerlere ne kadar katkıda bulunduğunuzu hesaplar. Örneğin: (x * 100) / toplam, burada x sizin t4 öldürmeleriniz ve toplam krallık t4 öldürmelerinizdir. Sonuç,% 100'de ne kadar katkıda bulunduğunuzu gösterecektir. Son adım, %'nizi kvk sezon puanı ile çarpmaktır. Bu noktalar kral tarafından belirlenir. Örneğin, (x * 100) / toplamınızın t4 öldürmeler için% 24 olduğunu ve şahın t4 öldürme puanını 0,7 olarak ayarladığını varsayalım. Bu, t4 öldürmelerinizden 16,8 puan alacağınız anlamına gelir.</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>Oyuncu Tipi</value>
+  </data>
+  <data name="typeError" xml:space="preserve">
+    <value>Performans değerleri sayı olmalıdır. Lütfen tekrar deneyin.</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>Hoşgeldiniz</value>
+  </data>
+  <data name="wipeAlliance" xml:space="preserve">
+    <value>İttifakı Sil</value>
+  </data>
+  <data name="wipeMessage" xml:space="preserve">
+    <value>Bu işlem, silmek istediğiniz öğeye ait tüm verileri silecektir. Bu süreç geri alınamaz. Verileri sileceğinizden emin misiniz?</value>
+  </data>
+  <data name="WipeSeason" xml:space="preserve">
+    <value>Sezonu Sil</value>
+  </data>
+  <data name="wipeWarning" xml:space="preserve">
+    <value>Temkinli!</value>
+  </data>
+  <data name="compsci" xml:space="preserve">
+    <value>Yazılım Uzmanı</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="team" xml:space="preserve">
+    <value>Takım</value>
+  </data>
+</root>
